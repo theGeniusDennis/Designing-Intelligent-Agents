@@ -1,6 +1,0 @@
-{'disaster_type': 'Earthquake', 'severity': 'MEDIUM', 'time': '2026-01-29 23:12:27'}
-{'disaster_type': 'Fire', 'severity': 'HIGH', 'time': '2026-01-29 23:12:32'}
-{'disaster_type': 'Flood', 'severity': 'MEDIUM', 'time': '2026-01-29 23:12:37'}
-{'disaster_type': 'Earthquake', 'severity': 'LOW', 'time': '2026-01-29 23:12:42'}
-{'disaster_type': 'Earthquake', 'severity': 'LOW', 'time': '2026-01-29 23:12:47'}
-{'disaster_type': 'Earthquake', 'severity': 'LOW', 'time': '2026-01-29 23:12:52'}

@@ -1,0 +1,354 @@
+======================================================================
+REACTIVE RESCUE AGENT - EXECUTION TRACE
+Started: 2026-02-10 15:22:48
+======================================================================
+
+
+======================================================================
+CYCLE #1 @ 15:22:48
+======================================================================
+Current State: IDLE
+Current Goal: Maintain Safety
+
+[SENSOR READINGS]
+  Temperature: 30.59°C
+  Wind Speed: 34.94 km/h
+  Water Level: 7.67 m
+  Structural Damage: 3.07%
+
+[EVENT DETECTED] ⚠️  Flood (Severity: High) at Flood Zone
+
+[FSM TRANSITION]
+  IDLE → ASSESSING
+
+[ACTIONS]
+  → Analyzing disaster impact
+  → Determining response priority
+  → Calculating resource requirements
+======================================================================
+
+
+======================================================================
+CYCLE #2 @ 15:22:50
+======================================================================
+Current State: ASSESSING
+Current Goal: Assess Damage
+
+[SENSOR READINGS]
+  Temperature: 32.24°C
+  Wind Speed: 55.59 km/h
+  Water Level: 3.66 m
+  Structural Damage: 18.62%
+
+[STATUS] ✓ No events detected
+
+[ACTIONS]
+  → Analyzing disaster impact
+  → Determining response priority
+  → Calculating resource requirements
+======================================================================
+
+
+======================================================================
+CYCLE #3 @ 15:22:52
+======================================================================
+Current State: ASSESSING
+Current Goal: Assess Damage
+
+[SENSOR READINGS]
+  Temperature: 23.19°C
+  Wind Speed: 11.19 km/h
+  Water Level: 2.59 m
+  Structural Damage: 20.29%
+
+[STATUS] ✓ No events detected
+
+[ACTIONS]
+  → Analyzing disaster impact
+  → Determining response priority
+  → Calculating resource requirements
+======================================================================
+
+
+======================================================================
+CYCLE #4 @ 15:22:54
+======================================================================
+Current State: ASSESSING
+Current Goal: Assess Damage
+
+[SENSOR READINGS]
+  Temperature: 35.93°C
+  Wind Speed: 78.87 km/h
+  Water Level: 6.43 m
+  Structural Damage: 9.88%
+
+[EVENT DETECTED] ⚠️  Flood (Severity: Medium) at Flood Zone
+
+[FSM TRANSITION]
+  ASSESSING → RESPONDING (Medium severity)
+
+[ACTIONS]
+  → Deploying emergency response teams
+  → Establishing communication channels
+  → Coordinating with other agents
+======================================================================
+
+
+======================================================================
+CYCLE #5 @ 15:22:56
+======================================================================
+Current State: RESPONDING
+Current Goal: Coordinate Response
+
+[SENSOR READINGS]
+  Temperature: 24.06°C
+  Wind Speed: 70.32 km/h
+  Water Level: 3.53 m
+  Structural Damage: 94.18%
+
+[EVENT DETECTED] ⚠️  Building Collapse (Severity: Critical) at Collapse Zone
+
+[FSM TRANSITION]
+  RESPONDING → RESPONDING (Continuing)
+
+[ACTIONS]
+  → Deploying emergency response teams
+  → Establishing communication channels
+  → Coordinating with other agents
+======================================================================
+
+
+======================================================================
+CYCLE #6 @ 15:22:58
+======================================================================
+Current State: RESPONDING
+Current Goal: Coordinate Response
+
+[SENSOR READINGS]
+  Temperature: 40.14°C
+  Wind Speed: 106.78 km/h
+  Water Level: 7.61 m
+  Structural Damage: 26.35%
+
+[EVENT DETECTED] ⚠️  Fire (Severity: Medium) at Fire Zone
+
+[FSM TRANSITION]
+  RESPONDING → RECOVERY (Task completed)
+
+[ACTIONS]
+  → Assessing residual risks
+  → Coordinating cleanup operations
+  → Preparing for next incident
+======================================================================
+
+
+======================================================================
+CYCLE #7 @ 15:23:00
+======================================================================
+Current State: RECOVERY
+Current Goal: Coordinate Response
+
+[SENSOR READINGS]
+  Temperature: 34.98°C
+  Wind Speed: 97.46 km/h
+  Water Level: 7.06 m
+  Structural Damage: 46.34%
+
+[EVENT DETECTED] ⚠️  Flood (Severity: High) at Flood Zone
+
+[FSM TRANSITION]
+  RECOVERY → MONITORING (Recovery complete)
+
+[ACTIONS]
+  → Monitoring environment for disasters
+  → Running sensor scans
+======================================================================
+
+
+======================================================================
+CYCLE #8 @ 15:23:02
+======================================================================
+Current State: MONITORING
+Current Goal: Detect Disasters
+
+[SENSOR READINGS]
+  Temperature: 20.87°C
+  Wind Speed: 110.07 km/h
+  Water Level: 1.48 m
+  Structural Damage: 96.74%
+
+[EVENT DETECTED] ⚠️  Hurricane (Severity: Critical) at Storm Zone
+
+[FSM TRANSITION]
+  MONITORING → ASSESSING
+
+[ACTIONS]
+  → Analyzing disaster impact
+  → Determining response priority
+  → Calculating resource requirements
+======================================================================
+
+
+======================================================================
+CYCLE #9 @ 15:23:04
+======================================================================
+Current State: ASSESSING
+Current Goal: Assess Damage
+
+[SENSOR READINGS]
+  Temperature: 34.54°C
+  Wind Speed: 69.39 km/h
+  Water Level: 6.38 m
+  Structural Damage: 94.63%
+
+[EVENT DETECTED] ⚠️  Flood (Severity: Medium) at Flood Zone
+
+[FSM TRANSITION]
+  ASSESSING → RESPONDING (Medium severity)
+
+[ACTIONS]
+  → Deploying emergency response teams
+  → Establishing communication channels
+  → Coordinating with other agents
+======================================================================
+
+
+======================================================================
+CYCLE #10 @ 15:23:06
+======================================================================
+Current State: RESPONDING
+Current Goal: Coordinate Response
+
+[SENSOR READINGS]
+  Temperature: 36.36°C
+  Wind Speed: 11.46 km/h
+  Water Level: 6.22 m
+  Structural Damage: 26.19%
+
+[EVENT DETECTED] ⚠️  Flood (Severity: Medium) at Flood Zone
+
+[FSM TRANSITION]
+  RESPONDING → RECOVERY (Task completed)
+
+[ACTIONS]
+  → Assessing residual risks
+  → Coordinating cleanup operations
+  → Preparing for next incident
+======================================================================
+
+
+======================================================================
+CYCLE #11 @ 15:23:08
+======================================================================
+Current State: RECOVERY
+Current Goal: Coordinate Response
+
+[SENSOR READINGS]
+  Temperature: 38.97°C
+  Wind Speed: 35.50 km/h
+  Water Level: 0.99 m
+  Structural Damage: 93.85%
+
+[EVENT DETECTED] ⚠️  Building Collapse (Severity: Critical) at Collapse Zone
+
+[FSM TRANSITION]
+  RECOVERY → MONITORING (Recovery complete)
+
+[ACTIONS]
+  → Monitoring environment for disasters
+  → Running sensor scans
+======================================================================
+
+
+======================================================================
+CYCLE #12 @ 15:23:10
+======================================================================
+Current State: MONITORING
+Current Goal: Detect Disasters
+
+[SENSOR READINGS]
+  Temperature: 40.69°C
+  Wind Speed: 108.35 km/h
+  Water Level: 7.71 m
+  Structural Damage: 73.38%
+
+[EVENT DETECTED] ⚠️  Fire (Severity: Medium) at Fire Zone
+
+[FSM TRANSITION]
+  MONITORING → ASSESSING
+
+[ACTIONS]
+  → Analyzing disaster impact
+  → Determining response priority
+  → Calculating resource requirements
+======================================================================
+
+
+======================================================================
+CYCLE #13 @ 15:23:12
+======================================================================
+Current State: ASSESSING
+Current Goal: Assess Damage
+
+[SENSOR READINGS]
+  Temperature: 26.57°C
+  Wind Speed: 53.89 km/h
+  Water Level: 2.98 m
+  Structural Damage: 28.45%
+
+[STATUS] ✓ No events detected
+
+[ACTIONS]
+  → Analyzing disaster impact
+  → Determining response priority
+  → Calculating resource requirements
+======================================================================
+
+
+======================================================================
+CYCLE #14 @ 15:23:14
+======================================================================
+Current State: ASSESSING
+Current Goal: Assess Damage
+
+[SENSOR READINGS]
+  Temperature: 36.44°C
+  Wind Speed: 10.40 km/h
+  Water Level: 7.48 m
+  Structural Damage: 73.08%
+
+[EVENT DETECTED] ⚠️  Flood (Severity: High) at Flood Zone
+
+[FSM TRANSITION]
+  ASSESSING → EVACUATING (High severity)
+
+[ACTIONS]
+  → Issuing evacuation orders
+  → Opening evacuation routes
+  → Guiding civilians to safety
+======================================================================
+
+
+======================================================================
+CYCLE #15 @ 15:23:16
+======================================================================
+Current State: EVACUATING
+Current Goal: Evacuate Area
+
+[SENSOR READINGS]
+  Temperature: 33.74°C
+  Wind Speed: 0.69 km/h
+  Water Level: 0.91 m
+  Structural Damage: 38.65%
+
+[STATUS] ✓ No events detected
+
+[ACTIONS]
+  → Issuing evacuation orders
+  → Opening evacuation routes
+  → Guiding civilians to safety
+======================================================================
+
+
+[INFO] Simulation complete. Agent stopping...
+
